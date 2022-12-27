@@ -14,11 +14,26 @@
         字符串
             - JS 中使用单引号或双引号来表示字符串
             - 转义字符，使用 '\' 来转移字符
+            - 模板字符串
+                - 使用 ` 来表示模板字符串
+                - 可以嵌入变量
+            - 使用 typeof 检查字符串返回 string
         */
         let a = 'hello'
         a = 'aaaa"bb"aa'
 
+        a = `aaa
+        bbb
+        ccc`
         console.log(a)
+
+        let name = "zenv"
+        let str = `你好！${name}`
+
+        console.log(str);
+
+        let c = typeof name
+        console.log(c)
     </script>
 </body>
 

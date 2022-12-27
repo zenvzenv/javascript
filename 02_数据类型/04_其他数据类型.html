@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>其他数据类型</title>
+</head>
+<body>
+    <script>
+        /**
+         * 1. 布尔值(boolean)
+         *      - 只有 true 和 false
+         *      - typeof 返回 "boolean"
+         * 2. 空值(null)
+         *      - 表示一个空对象
+         *      - 控制只有一个 null
+         *      - typeof 返回 "object"
+         *      - typeof 无法检测控制
+         * 3. 未定义(undefind)
+         *      - 当声明一个变量而没有赋值时，它的值是 undefine
+         *      - undefine 类型的值只有一个，就是 undefine
+         *      - typeof 返回 undefine
+         * 4. 符号(symbol)
+         *      - 用来创建一个唯一的标识
+         * 
+         * JS 中原始值一共有七种
+         *  1. Number
+         *  2. BigInt
+         *  3. String
+         *  4. Boolean
+         *  5. Null
+         *  6. Undefine
+         *  7. Symbol
+         * 
+         *  原始类型不可变，一旦创建不可变
+         */
+        let bool = true
+        bool = false
+        
+        let a = null 
+
+        let c = Symbol() // 调用 Symbol() 创建一个符号
+        console.log(typeof c) 
+    </script>
+</body>
+</html>
