@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <!-- 1. 将 JS 写在网页内部标签 -->
+        <!-- <script>
+            alert("aaa")
+        </script> -->
+
+        <!-- 2. 可以将 JS 代码编写到外部 js 文件，通过 script 标签引用 -->
+        <!-- <script src="./02_JS_test.js"></script> -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <button onclick="alert('点我干嘛')">点击一下</button>
+        <hr>
+        <a href="javascript:alert('超链接')">超链接1</a>
+        <hr>
+        <a href="javascript:;">超链接2</a>
+    </body>
+</html>
