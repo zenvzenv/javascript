@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>算数运算符</title>
+</head>
+<body>
+<script>
+    /*
+    * 1. 运算符(操作符)
+    *   - 运算符可以用来对一个或多个操作数进行运算
+    * */
+    let a = 1 + 1;
+    console.log(a)
+
+    /*
+    * JS 是弱类型语言，当进行运算时会自动的进行类型转换来运算
+    * */
+    a = 10 - '5' // 10 - 5
+    a = 10 + true // 10 + 1
+    a = 10 + null // 10 + 0
+    a = 6 - undefined // 6 - NaN
+
+    /*
+    * 当任意一个值和字符串做加法运算时，它会先将其他值转换为字符串，然后做拼接的操作
+    * 可以利用这一特点来完成类型转换，可通过任意类型+一个空串的形式来将其装为字符串
+    * */
+    a = 'hello' + 'world'
+    a = '1' + 2 // "1" + "2"
+
+    a = true + ''
+    console.log(typeof a, a)
+</script>
+</body>
+</html>

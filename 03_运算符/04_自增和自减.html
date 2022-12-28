@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自增和自减</title>
+</head>
+<body>
+<script>
+    /*
+    * ++ 自增
+    *   - 使用后会使原来的变量立刻增加1
+    *   - 前自增(++a)和后自增(a++)
+    *   - 无论是 ++a 还是 a++ 都会是原变量立刻加 1
+    *   - 不同的是 ++a 和 a++ 所返回的值不同
+    *       a++ 先使用旧值再自增，++a 先自增再使用
+    */
+    let a = 10;
+    a++ // a += 1
+
+    let b = a++
+
+    console.log(a)
+    console.log(b)
+
+    /*
+    * -- 自减和自增同理
+    */
+</script>
+</body>
+</html>

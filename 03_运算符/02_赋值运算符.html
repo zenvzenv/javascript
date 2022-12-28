@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>赋值运算符</title>
+</head>
+<body>
+<script>
+    /*
+    * 赋值运算符用来将一个值赋值给一个变量
+    * */
+    let a = 10 // 右边的值赋值给左边
+    let b = a // 等号左边是变量，等号右边是值
+    a = b
+    a = 66
+    a + 11 // 大部分的运算符不会改变变量的值
+
+    /*
+    * +=
+    * -=
+    * *=
+    * /=
+    * %=
+    * **=
+    * ??= 空赋值，只有当变量的值为 null 或 undefined 时生效
+    * */
+    a += 5
+
+    console.log(a)
+</script>
+</body>
+</html>
